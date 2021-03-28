@@ -1,0 +1,13 @@
+.primary {
+    background-color: #c0d6df;
+}
+.text {
+color: #4F6D7A;
+}
+.size {
+    font-size: x-large;
+}
+.footer {
+    font-size: large;
+    padding: 2px;
+}

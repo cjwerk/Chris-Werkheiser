@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-
+import '../src/components/myStyles.css';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -39,7 +39,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
+        <Container className="p-0 primary text" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Chris Werkheiser</Navbar.Brand>
