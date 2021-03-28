@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import github from '../assets/images/github.png';
+import github from '../assets/images/github.jpg';
 import profilepic from '../assets/images/profilepic.JPG';
 import movieSearch from '../assets/images/movie-search.png';
 import Container from 'react-bootstrap/Container';
@@ -32,10 +32,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'movieSearch',
-                    subTitle: 'A social network for developers',
+                    title: 'Movie Search',
+                    subTitle: 'A Movie Search DB',
                     imgSrc: movieSearch,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://aqueous-shelf-48398.herokuapp.com/',
                     selected: false
                 },
             ]
