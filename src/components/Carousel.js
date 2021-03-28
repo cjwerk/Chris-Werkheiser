@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                     title: 'Movie Search',
                     subTitle: 'A Movie Search DB',
                     imgSrc: movieSearch,
-                    link: 'https://aqueous-shelf-48398.herokuapp.com/',
+                    link: 'https://quiet-hamlet-24216.herokuapp.com/',
                     selected: false
                 },
             ]
