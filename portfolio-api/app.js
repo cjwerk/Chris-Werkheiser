@@ -1,3 +1,4 @@
+import env from "dotenv";
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -29,9 +30,9 @@ app.post('/api/email', (req, res, next) => {
 
     console.log(req.body);
 
-    sendGrid.setApiKey('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');
+    sendGrid.setApiKey(process.env.API_KEY);
     const msg = {
-        to: 'cjwerk@gmail.com',
+        to: process.env.EMAIL,
         from: req.body.email,
         subject: 'Website Contact',
         text: req.body.message
